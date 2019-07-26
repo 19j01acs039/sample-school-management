@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="961" pageHeight="595" orientation="Landscape" columnWidth="921" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="550e80ba-ebd3-4a40-8935-34aad867e1d9">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select * from school]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="305" splitType="Stretch">
+			<staticText>
+				<reportElement x="213" y="34" width="100" height="20" uuid="049319e1-b8cc-45e2-ae07-40be482fea0b"/>
+				<text><![CDATA[SCHOOL SYSTEM]]></text>
+			</staticText>
+			<rectangle radius="10">
+				<reportElement x="134" y="17" width="418" height="47" uuid="600329e1-3d4b-4e33-bcbb-28aa2f9f1376"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="144" y="17" width="408" height="47" uuid="907814cd-1daa-4e39-af38-6a81c582b79b"/>
+				<textElement>
+					<font size="36"/>
+				</textElement>
+				<text><![CDATA[SCHOOL REPORT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="86" width="100" height="20" uuid="04c59dbb-0c4f-4bb3-930f-82ee9a7c7d9f"/>
+				<text><![CDATA[id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="113" y="86" width="100" height="20" uuid="09c62961-ca03-4a17-a20b-809dc81ac0b5"/>
+				<text><![CDATA[admno]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="213" y="86" width="100" height="20" uuid="bd109cb9-a0ce-4c96-8ded-2b5c7e3f872e"/>
+				<text><![CDATA[fname]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="313" y="86" width="100" height="20" uuid="8d95e904-907f-4498-85ea-784198ca24b0"/>
+				<text><![CDATA[lname]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="413" y="86" width="100" height="20" uuid="8c6a46f7-f3f7-44d6-96ad-16934e308129"/>
+				<text><![CDATA[age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="621" y="86" width="100" height="20" uuid="821898d8-d21b-48b8-adb8-fa65d7a69881"/>
+				<text><![CDATA[gender]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="721" y="86" width="100" height="20" uuid="1a7d1230-e145-4f0d-9ff0-c91d5023ed66"/>
+				<text><![CDATA[tel]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="513" y="86" width="100" height="20" uuid="dbce3ef8-f5a7-48e6-b8ad-bd2479bc7959"/>
+				<text><![CDATA[email]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="106" width="100" height="17" uuid="bc9a3b07-400b-4457-80eb-36cef9222d23"/>
+				<text><![CDATA[koko]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="721" y="109" width="100" height="20" uuid="63f2d91a-89f0-4a35-8c0f-207acbb4c243"/>
+				<text><![CDATA[0710274086]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="621" y="109" width="100" height="20" uuid="b7c4698f-4a39-4ea8-972a-89202dc47121"/>
+				<text><![CDATA[male]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="521" y="109" width="100" height="20" uuid="dc7258d9-0ae3-4893-b049-e44b5bd8b3ba"/>
+				<text><![CDATA[mosesmaranga254@gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="415" y="109" width="100" height="20" uuid="4847af24-993f-4f07-8b42-5476ebb8ed9d"/>
+				<text><![CDATA[40]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="106" width="100" height="20" uuid="93d32ee5-41f1-4f2c-b852-12194994d1de"/>
+				<text><![CDATA[moses]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="106" width="100" height="20" uuid="d1c3a818-6444-4df5-836b-07f892ed839b"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="113" y="106" width="100" height="20" uuid="a50b6912-804f-45bf-8f04-2f53297f28f2"/>
+				<text><![CDATA[11747]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="126" width="100" height="20" uuid="52faae84-e467-4315-a20c-ad9d2750b2a1"/>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="126" width="100" height="20" uuid="ddebc183-a940-4d9c-b67d-9d9c29e103f1"/>
+				<text><![CDATA[67]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="215" y="129" width="100" height="20" uuid="2073d4f4-bf82-49c6-918d-cedef0c9cda2"/>
+				<text><![CDATA[ken]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="415" y="129" width="100" height="20" uuid="6157aa83-c505-42a2-a15f-1adfff07479c"/>
+				<text><![CDATA[28]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="521" y="129" width="100" height="20" uuid="d8228851-20f7-43cc-8ee6-c9a7b824779b"/>
+				<text><![CDATA[k@gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="621" y="126" width="100" height="20" uuid="4b1e8c34-a6a5-41aa-8091-b65a525661e9"/>
+				<text><![CDATA[male]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="721" y="129" width="100" height="20" uuid="517dd880-4820-40aa-9895-2aa1a4c87279"/>
+				<text><![CDATA[0757254276]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="721" y="146" width="100" height="20" uuid="93c07cc7-814f-4d7a-972a-2ffbd5a4d8ef"/>
+				<text><![CDATA[0-725678878]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="521" y="169" width="100" height="20" uuid="5e535d7e-49de-4c5f-bd45-7b290d95ac09"/>
+				<text><![CDATA[w.gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="146" width="98" height="20" uuid="bc7a8055-4da3-4520-bed9-59f41735b48f"/>
+				<text><![CDATA[36]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="126" width="100" height="20" uuid="d3951a89-1e93-4385-ac6b-d64634cb29c6"/>
+				<text><![CDATA[hko]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="215" y="149" width="100" height="20" uuid="fa1e69eb-ce01-42f1-9813-a927bcc17f8f"/>
+				<text><![CDATA[raphael]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="113" y="149" width="100" height="20" uuid="16199d3a-b447-415b-b620-737c42485138"/>
+				<text><![CDATA[68]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="149" width="100" height="20" uuid="a20879bf-bef1-403d-87f6-ede70dbc6cc6"/>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="721" y="166" width="100" height="20" uuid="15041657-3bb6-489a-bb65-722b8ffd424a"/>
+				<text><![CDATA[07453r6t7477]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="621" y="146" width="100" height="20" uuid="28d04e22-ac1a-41d4-b409-cab17802a1ed"/>
+				<text><![CDATA[female]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="521" y="149" width="100" height="20" uuid="3f886171-3abb-4949-83d3-5147e236db8e"/>
+				<text><![CDATA[m.gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="169" width="98" height="20" uuid="912ab0e0-03fd-46ec-80d6-d8b14c522e2c"/>
+				<text><![CDATA[15]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="149" width="100" height="20" uuid="f3db8187-3f8f-4b4c-b38a-5e698d5b76d9"/>
+				<text><![CDATA[dushu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="215" y="169" width="100" height="20" uuid="496b8325-e7a2-4bdb-a543-31fc645ace9f"/>
+				<text><![CDATA[wine]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="113" y="169" width="100" height="20" uuid="cd180269-20c6-4b48-9002-eb9bec0c60a4"/>
+				<text><![CDATA[69]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="721" y="189" width="100" height="20" uuid="789e31b8-577c-49d8-a1f2-4234a4286ddb"/>
+				<text><![CDATA[07187656456]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="621" y="169" width="100" height="20" uuid="3697e1d7-f520-46eb-be28-c3579b4cf9d3"/>
+				<text><![CDATA[male]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="521" y="189" width="100" height="20" uuid="e06e2781-b1ff-4add-a615-e948ecf76f35"/>
+				<text><![CDATA[f.gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="189" width="98" height="20" uuid="09e214ab-d97d-48e8-b6d0-7740e1a61f5e"/>
+				<text><![CDATA[42]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="169" width="100" height="20" uuid="2914ac03-4b78-4761-8d66-e22e42298832"/>
+				<text><![CDATA[dec]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="215" y="189" width="100" height="20" uuid="87e7e60b-ef9d-44f5-917c-e68761fa5763"/>
+				<text><![CDATA[hellen]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="169" width="100" height="20" uuid="0f2791ae-fc34-4ca2-8b1f-fe083c8794d6"/>
+				<text><![CDATA[7]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="721" y="209" width="100" height="20" uuid="5a6c5d12-3b04-44f1-a4ef-84131505e3a6"/>
+				<text><![CDATA[07102740745]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="621" y="189" width="100" height="20" uuid="6b396fa8-feba-470a-a563-c24ab906a55e"/>
+				<text><![CDATA[female]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="521" y="209" width="100" height="20" uuid="18442f95-97e2-4750-9216-b9aa89a6c0bf"/>
+				<text><![CDATA[t.gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="189" width="100" height="20" uuid="1f4bbd17-526b-40c4-a51e-5a101207b30a"/>
+				<text><![CDATA[timp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="209" width="100" height="20" uuid="3128ec52-2039-4827-b220-d477793d38e6"/>
+				<text><![CDATA[pisa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="113" y="189" width="100" height="20" uuid="bbcbcd07-7943-4e65-b255-6f9854e7812e"/>
+				<text><![CDATA[71]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="209" width="100" height="20" uuid="ea04d4a8-d104-4a86-b0b7-fdf958551919"/>
+				<text><![CDATA[9]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="721" y="229" width="100" height="20" uuid="ed65d42e-7b5f-4867-b6d5-02a8241605b8"/>
+				<text><![CDATA[0717689087]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="621" y="209" width="100" height="20" uuid="339d8d05-8803-4be1-8880-a9999595cc3e"/>
+				<text><![CDATA[male]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="521" y="229" width="100" height="20" uuid="dd77f943-c878-4169-bf3d-2ada6c18c5a9"/>
+				<text><![CDATA[q.gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="209" width="98" height="20" uuid="3e66920d-b548-44c6-9c96-2d38a4bbcc98"/>
+				<text><![CDATA[23]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="209" width="100" height="20" uuid="caeb3e9c-43f9-492b-aed7-cd0a7e513f26"/>
+				<text><![CDATA[rgdxb]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="229" width="100" height="20" uuid="1baadc4a-bdb9-47ca-9e1c-238a578d7f79"/>
+				<text><![CDATA[roy]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="113" y="209" width="100" height="20" uuid="a152e5ed-ba86-479e-9d25-cea22145631c"/>
+				<text><![CDATA[72]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="229" width="100" height="20" uuid="a0a5b6a9-c3f9-4068-a4f3-567ef4be66da"/>
+				<text><![CDATA[10]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="621" y="229" width="100" height="20" uuid="a5454121-081a-4b58-a661-d9ddbd2631c0"/>
+				<text><![CDATA[male]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="317" y="229" width="100" height="20" uuid="3df3ab84-7da6-472e-bc7b-69c57b91a7a7"/>
+				<text><![CDATA[lod]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="229" width="98" height="20" uuid="52fcc11a-90dc-4579-9975-0f92d56465a7"/>
+				<text><![CDATA[34]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="229" width="100" height="20" uuid="50c3c9b6-835e-4a8c-97a9-d92f5fbcfafc"/>
+				<text><![CDATA[70]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="186" width="100" height="20" uuid="05809adf-edc9-4c7f-a2a9-591305c6959e"/>
+				<text><![CDATA[6]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="163" splitType="Stretch"/>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
